@@ -18,19 +18,23 @@
   <style>
    
     body{
-      
-      margin:200px 238px;
+      margin: 0;
+      display: flex;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
     }
     @media screen and (max-width: 1440px) 
     {
       .grid-container{
         display: grid;
+        border-radius: 5px;
+        overflow: hidden;
         grid-template-columns: 1fr 1fr 1fr;
-        
+        max-width: 870px;
       } 
       .sedans{
-        border-bottom-left-radius: 5px;
-        border-top-left-radius: 5px;
+     
         padding-left: 35px;
         padding-right: 45px;
      
@@ -41,22 +45,21 @@
         padding-right: 45px;
       }
       .luxury{
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
+     
         padding-left: 35px;
         padding-right: 45px;
       }
     }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 675px) {
       .grid-container{
         display: grid;
         grid-template-columns: 1fr;
+        max-width: 300px;
       } 
       .sedans{
         padding-left: 35px;
         padding-right:40px;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
+    
       }
     
       .suv{
@@ -64,13 +67,11 @@
         padding-right: 40px;
       }
       .luxury{
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
         padding-left: 35px;
         padding-right: 40px;
       }
       
-   }
+   } 
    button{
     background-color: hsl(0, 0%, 95%);
     border: none;
