@@ -3,8 +3,7 @@
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 ### Screenshot
 
-![](./Screenshot 2023-12-20 at 15-21-08 Frontend Mentor 3-column preview card component.png>)
-
+![](./desktop-preview-demo.jpg)
 
 ### Links
 
