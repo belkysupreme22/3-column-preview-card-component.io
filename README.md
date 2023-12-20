@@ -3,8 +3,8 @@
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 ### Screenshot
 
-![](./3-column preview card component.jpg)
 
+![](./3-column preview card component.jpg)
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-3-card-component-solution-using-css-grid-mHxoBwZjt3]
